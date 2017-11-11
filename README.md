@@ -95,8 +95,8 @@ public class MousePath extends PApplet {
 	public void keyReleased() {
 		if (key == 's' || key == 'S') {
 			String n = nf(hour(), 2) + "_" + nf(minute(), 2) + "_" + nf(second(), 2);
-			save("mousePath-" + n + ".tif");
-			status("Saved to 'mousePath_" + n + ".tif'");
+			save("mousePath-" + n + ".mp4");
+			status("Saved to 'mousePath_" + n + ".mp4'");
 			return;
 		}
 		if (key == 'r' || key == 'R') {
